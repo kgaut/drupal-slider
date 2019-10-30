@@ -75,17 +75,17 @@ class SlideForm extends ContentEntityForm {
 
     switch ($status) {
       case SAVED_NEW:
-        $this->messenger()->addMessage($this->t('Created the %label Slide.', [
+        $this->messenger()->addMessage($this->t('La diapositive %label est correctement enregistrée.', [
           '%label' => $entity->label(),
         ]));
         break;
 
       default:
-        $this->messenger()->addMessage($this->t('Saved the %label Slide.', [
+        $this->messenger()->addMessage($this->t('La diapositive %label mise à jour.', [
           '%label' => $entity->label(),
         ]));
     }
-    $form_state->setRedirect('entity.slide.canonical', ['slide' => $entity->id()]);
+    $form_state->setRedirect('entity.slide.collection', ['slide' => $entity->id()]);
   }
 
 }
