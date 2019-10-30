@@ -188,7 +188,7 @@ class Slide extends ContentEntityBase implements SlideInterface {
       ->setSetting('alt_field_required', FALSE)
       ->setDisplayConfigurable('form', TRUE)
       ->setDisplayConfigurable('view', TRUE)
-      ->setRequired(FALSE);
+      ->setRequired(TRUE);
 
     $fields['cta'] = BaseFieldDefinition::create('link')
       ->setLabel(t('Lien'))
