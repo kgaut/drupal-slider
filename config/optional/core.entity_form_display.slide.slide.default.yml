@@ -3,13 +3,15 @@ langcode: fr
 status: true
 dependencies:
   config:
+    - field.field.slide.slide.field_weight
     - image.style.thumbnail
   module:
     - image
     - link
     - slider
+    - weight
 _core:
-  default_config_hash: McLsW7G7Gsq6xg7d57jh9hImhXv8pgsfsCuzdqAa5cU
+  default_config_hash: Sd4GoS393H5Y4KBWsLOGURc3epBMVwK7zzjtYCKPpA8
 id: slide.slide.default
 targetEntityType: slide
 bundle: slide
@@ -39,6 +41,12 @@ content:
       placeholder_url: ''
       placeholder_title: ''
     third_party_settings: {  }
+  field_weight:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    type: weight_selector
+    region: content
   image:
     type: image_image
     weight: 1
