@@ -1,0 +1,20 @@
+uuid: 8a1800d0-8dfa-45f8-bbe1-5dbe57a4deda
+langcode: fr
+status: true
+dependencies:
+  module:
+    - slider
+    - weight
+id: slide.field_weight
+field_name: field_weight
+entity_type: slide
+type: weight
+settings:
+  unsigned: false
+module: weight
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

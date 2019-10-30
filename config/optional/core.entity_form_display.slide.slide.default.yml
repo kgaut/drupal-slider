@@ -8,6 +8,8 @@ dependencies:
     - image
     - link
     - slider
+_core:
+  default_config_hash: McLsW7G7Gsq6xg7d57jh9hImhXv8pgsfsCuzdqAa5cU
 id: slide.slide.default
 targetEntityType: slide
 bundle: slide

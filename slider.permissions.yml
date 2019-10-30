@@ -1,20 +1,7 @@
-add slide entities:
-  title: 'Create new Slide entities'
+manage slides:
+  title: 'Create, edit, delete Slides'
 
 administer slide entities:
   title: 'Administer Slide entities'
   description: 'Allow to access the administration form to configure Slide entities.'
   restrict access: true
-
-delete slide entities:
-  title: 'Delete Slide entities'
-
-edit slide entities:
-  title: 'Edit Slide entities'
-
-view published slide entities:
-  title: 'View published Slide entities'
-
-view unpublished slide entities:
-  title: 'View unpublished Slide entities'
-

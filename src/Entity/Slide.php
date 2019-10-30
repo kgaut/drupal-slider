@@ -153,7 +153,7 @@ class Slide extends ContentEntityBase implements SlideInterface {
 
     $fields['admin_title'] = BaseFieldDefinition::create('string')
       ->setLabel(t("Titre d'administration"))
-      ->setDescription(t('Ne sera pas affichée aux visiteur.'))
+      ->setDescription(t('Ne sera pas affichée aux visiteurs.'))
       ->setSetting('max_length', 255)
       ->setSetting('text_processing', 0)
       ->setDefaultValue('')
@@ -196,7 +196,7 @@ class Slide extends ContentEntityBase implements SlideInterface {
       ->setDescription(t('Le titre sera le label du bouton'))
       ->setSetting('link_type', LinkItemInterface::LINK_GENERIC)
       ->setSetting('title', DRUPAL_REQUIRED)
-      ->setRequired(TRUE)
+      ->setRequired(FALSE)
       ->setDisplayConfigurable('view', TRUE)
       ->setDisplayConfigurable('form', TRUE);
 

@@ -1,0 +1,30 @@
+uuid: c7bf1ab2-c243-435a-83f8-d6ed7fe8fc3a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.slide.slide.field_weight
+  module:
+    - slider
+id: slide.slide.default
+targetEntityType: slide
+bundle: slide
+mode: default
+content:
+  field_weight:
+    weight: 0
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+hidden:
+  admin_title: true
+  baseline: true
+  cta: true
+  image: true
+  langcode: true
+  title: true
+  user_id: true

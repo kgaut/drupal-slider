@@ -1,0 +1,24 @@
+uuid: 0e7d5ec4-53d0-4643-ba1e-d89a28cc1b2e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.slide.field_weight
+  module:
+    - slider
+    - weight
+id: slide.slide.field_weight
+field_name: field_weight
+entity_type: slide
+bundle: slide
+label: Ordre
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings:
+  range: '20'
+field_type: weight

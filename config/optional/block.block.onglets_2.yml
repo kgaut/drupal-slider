@@ -1,0 +1,20 @@
+uuid: 8622bbbf-3951-451c-9e7b-b6600dea1e5a
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - wingstop_back
+id: onglets_2
+theme: wingstop_back
+region: header
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Onglets Principaux'
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: false
+visibility: {  }
