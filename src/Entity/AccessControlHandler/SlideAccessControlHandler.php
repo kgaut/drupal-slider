@@ -25,19 +25,15 @@ class SlideAccessControlHandler extends EntityAccessControlHandler {
       case 'view':
 
         if (!$entity->isPublished()) {
-          return AccessResult::allowedIfHasPermission($account, 'view unpublished slide entities');
+          return AccessResult::allowedIfHasPermission($account, 'manage slides');
         }
 
 
-        return AccessResult::allowedIfHasPermission($account, 'view published slide entities');
+        return AccessResult::allowedIfHasPermission($account, 'access content');
 
       case 'update':
-
-        return AccessResult::allowedIfHasPermission($account, 'edit slide entities');
-
       case 'delete':
-
-        return AccessResult::allowedIfHasPermission($account, 'delete slide entities');
+        return AccessResult::allowedIfHasPermission($account, 'manage slides');
     }
 
     // Unknown operation, no opinion.
@@ -48,8 +44,7 @@ class SlideAccessControlHandler extends EntityAccessControlHandler {
    * {@inheritdoc}
    */
   protected function checkCreateAccess(AccountInterface $account, array $context, $entity_bundle = NULL) {
-    return AccessResult::allowedIfHasPermission($account, 'add slide entities');
+    return AccessResult::allowedIfHasPermission($account, 'manage slides');
   }
-
 
 }

@@ -18,7 +18,7 @@ use Drupal\user\UserInterface;
  *
  * @ContentEntityType(
  *   id = "slide",
- *   label = @Translation("Slide"),
+ *   label = @Translation("Diapositive"),
  *   handlers = {
  *     "view_builder" = "Drupal\Core\Entity\EntityViewBuilder",
  *     "list_builder" = "Drupal\slider\Entity\ListBuilder\SlideListBuilder",
