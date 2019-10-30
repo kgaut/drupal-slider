@@ -1,0 +1,8 @@
+name: 'Slider'
+type: module
+description: 'Simple drupal 8 module creating a « Slide » entity type'
+core: 8.x
+package: 'Content'
+
+dependencies:
+  - weight
