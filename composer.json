@@ -1,0 +1,12 @@
+{
+    "name": "kgaut/slider",
+    "type": "drupal-module",
+    "description": "Simple drupal 8 module creating a « Slide » entity type.",
+    "keywords": ["Drupal"],
+    "homepage": "https://github.com/kgaut/drupal-slider",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://github.com/kgaut/drupal-slider/issues",
+        "source": "https://github.com/kgaut/drupal-slider"
+    }
+}
