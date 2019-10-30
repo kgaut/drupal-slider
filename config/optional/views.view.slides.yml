@@ -11,7 +11,7 @@ dependencies:
     - user
     - weight
 _core:
-  default_config_hash: Hwe5f8BUbB4As9RBrNMP4ekcA9D0UrwUKzWpE0p51n4
+  default_config_hash: Y8ciZd_OWxoHATPDE6S42SED6DitYmRpwSc0-xJGucE
 id: slides
 label: Diapositives
 module: views
@@ -160,7 +160,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Ordre
+          label: ''
           exclude: false
           alter:
             alter_text: false
@@ -193,7 +193,7 @@ display:
           element_class: ''
           element_label_type: ''
           element_label_class: ''
-          element_label_colon: true
+          element_label_colon: false
           element_wrapper_type: ''
           element_wrapper_class: ''
           element_default_classes: true
