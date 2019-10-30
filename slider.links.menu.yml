@@ -1,0 +1,13 @@
+# Slide menu items definition
+entity.slide.collection:
+  title: 'Slide list'
+  route_name: entity.slide.collection
+  description: 'List Slide entities'
+  parent: system.admin_content
+  weight: 100
+
+slide.admin.structure.settings:
+  title: 'Slide settings'
+  description: 'Configure Slide entities'
+  route_name: slide.settings
+  parent: system.admin_structure
