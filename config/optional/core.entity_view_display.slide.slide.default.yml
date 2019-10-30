@@ -4,27 +4,57 @@ status: true
 dependencies:
   config:
     - field.field.slide.slide.field_weight
+    - image.style.slide
   module:
+    - image
+    - link
     - slider
+_core:
+  default_config_hash: i5Mb64S1oMv383FRd3XXY6-azx8LMErMw_rHCa2y7n8
 id: slide.slide.default
 targetEntityType: slide
 bundle: slide
 mode: default
 content:
-  field_weight:
-    weight: 0
-    label: above
-    settings:
-      thousand_separator: ''
-      prefix_suffix: true
-    third_party_settings: {  }
-    type: number_integer
+  baseline:
+    type: string
+    weight: 2
     region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  cta:
+    type: link
+    weight: 3
+    region: content
+    label: hidden
+    settings:
+      trim_length: null
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+  image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: slide
+      image_link: ''
+    third_party_settings: {  }
+  title:
+    type: string
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
 hidden:
   admin_title: true
-  baseline: true
-  cta: true
-  image: true
+  field_weight: true
   langcode: true
-  title: true
   user_id: true
