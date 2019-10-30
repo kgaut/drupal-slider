@@ -52,7 +52,6 @@ use Drupal\user\UserInterface;
  *     "add-form" = "/admin/content/slides/add",
  *     "edit-form" = "/admin/content/slides/{slide}/edit",
  *     "delete-form" = "/admin/content/slides/{slide}/delete",
- *     "collection" = "/admin/content/slides",
  *   },
  *   field_ui_base_route = "slide.settings"
  * )

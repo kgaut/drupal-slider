@@ -1,8 +1,8 @@
 # Slide menu items definition
 entity.slide.collection:
-  title: 'Slide list'
-  route_name: entity.slide.collection
-  description: 'List Slide entities'
+  title: 'Diapositives'
+  route_name: view.slides.page
+  description: 'See all slides'
   parent: system.admin_content
   weight: 100
 

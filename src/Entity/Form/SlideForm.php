@@ -85,7 +85,7 @@ class SlideForm extends ContentEntityForm {
           '%label' => $entity->label(),
         ]));
     }
-    $form_state->setRedirect('entity.slide.collection', ['slide' => $entity->id()]);
+    $form_state->setRedirect('view.slides.page', ['slide' => $entity->id()]);
   }
 
 }
