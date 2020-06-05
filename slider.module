@@ -1,1 +1,10 @@
 <?php
+function slider_theme() {
+  $themes = [];
+  $themes['slide'] = [
+    'render element' => 'elements',
+    'file' => 'slide.page.inc',
+    'template' => 'slide',
+  ];
+  return $themes;
+}
